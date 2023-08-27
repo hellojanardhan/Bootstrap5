@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hello world!</h1>
+
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="u_name" class="form-label">Username</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="u_name" class="form-label">Comment</label>
+                        <textarea id="u_name" class="form-control" rows="5">Comment</textarea>
+                    </div>
+                    <!--larger text-->
+                    <div class="mb-3">
+                        <label for="u_text" class="form-label">Some text</label>
+                        <input type="text" class="form-control form-control-lg" required>
+                    </div>
+                    <!--smaller test-->
+                    <div class="mb-3">
+                        <label for="u_text1" class="form-label">Some text</label>
+                        <input type="text" class="form-control form-control-sm" required>
+                    </div>
+                    <!--diabled,readonly-->
+                    <div class="mb-3">
+                        <label for="u_email" class="form-label">Some text</label>
+                        <input type="email" class="form-control " value="jhondoe@gamil.com" readonly disabled required>
+                    </div>
+                    <!--file type,file disabled-->
+                    <div class="mb-3">
+                        <label for="u_file" class="form-label">Some text</label>
+                        <input type="file" class="form-control " value="jhondoe@gamil.com" disabled>
+                    </div>
+                    <!--color,with disabled-->
+                    <div class="mb-3">
+                        <label for="u_file" class="form-label">Some text</label>
+                        <input type="color" class="form-control form-control-color " disabled>
+                    </div>
+                    <div class="mb-3">
+                        <label for="u_file" class="form-label">Some text</label>
+                        <input type="color" class="form-control form-control-color " disabled>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+<!--below link bootstrap.bundle.min.js is used for support for dropdown,popovers, and tooltips-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+</html>
